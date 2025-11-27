@@ -18,8 +18,8 @@ def user_input_features():
   Frecuencia = st.number_input('Frecuencia cardíaca en reposo:',min_value=0.0, max_value=220.0, value = 0.0)
   Presion = st.number_input('Presión arterial en mmHg:', min_value=0.0, max_value=120.0, value = 0.0)
   Sueño = st.number_input('Horas de sueño al día:', min_value=0.0, max_value=12.0, value = 0.0)
-  Nutricion = st.number_input('Calidad de nutrición (1-10):', min_value=1.0, max_value=10.0, value = 0.0)
-  Actividad = st.number_input('Calidad de actividad física (1-5):', min_value=1.0, max_value=5.0, value = 0.0)
+  Nutricion = st.number_input('Calidad de nutrición (1-10):', min_value=1.0, max_value=10.0, value = 1.0)
+  Actividad = st.number_input('Calidad de actividad física (1-5):', min_value=1.0, max_value=5.0, value = 1.0)
   Fuma = st.number_input("¿Es fumador activo? (0: no, 1: sí): ", min_value=0, max_value=1, value = 0, step = 1)
   genero = st.number_input("¿Es hombre o mujer? (0: mujer, 1: hombre): ", min_value=0, max_value=1, value=0, step=1)
 
